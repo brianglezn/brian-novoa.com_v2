@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-primary: #206d7e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:not(.no-underline-effect) {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 200ms ease-in-out;
+}
+
+a:not(.no-underline-effect):hover,
+a:not(.no-underline-effect):focus-visible {
+    background-size: 100% 2px;
+    cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    a {
+        transition: none;
+    }
+}
+
+::selection {
+    background: #206d7e33;
+    color: #0b2438;
+}
+
+:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+:target {
+    scroll-margin-top: 80px;
+}
