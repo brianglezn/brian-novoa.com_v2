@@ -16,7 +16,7 @@ export default function Cases() {
             title: 'CartaHub',
             summary:
                 'Sistema integral para la gestión digital de restaurantes. Crea menús digitales con QR, gestiona pedidos y actualiza tu carta en varios idiomas, todo desde una misma plataforma. 👉 Ayuda a restaurantes a ahorrar tiempo, reducir errores y ofrecer una experiencia moderna a sus clientes.',
-            link: '/carthub',
+            link: '/projects/cartahub',
             imageAlt: 'CartaHub gestión del restaurante',
             imageSrc: cartahubRestaurant,
         },

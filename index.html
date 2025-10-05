@@ -1,13 +1,119 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>brian-novoa.com_v2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="/logo.png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+
+        <!-- Resource Hints -->
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+
+        <!-- Primary Meta Tags -->
+        <title>Desarrollo de Software a Medida | Brian González Novoa</title>
+        <meta name="title" content="Desarrollo de Software a Medida | Brian González Novoa" />
+        <meta
+            name="description"
+            content="Soy Brian, Full Stack Developer. Creo soluciones digitales escalables y a medida que impulsan el crecimiento de tu empresa: de la idea al producto final."
+        />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://brian-novoa.com/" />
+        <link rel="alternate" hreflang="es" href="https://brian-novoa.com/" />
+        <link rel="alternate" hreflang="x-default" href="https://brian-novoa.com/" />
+        <meta name="author" content="Brian González Novoa" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="es_ES" />
+        <meta property="og:url" content="https://brian-novoa.com/" />
+        <meta property="og:title" content="Desarrollo de Software a Medida | Brian González Novoa" />
+        <meta
+            property="og:description"
+            content="Full Stack Developer especializado en crear soluciones digitales escalables para tu negocio."
+        />
+        <meta property="og:site_name" content="Brian González Novoa" />
+        <meta property="og:image" content="https://brian-novoa.com/rrss.png" />
+        <meta property="og:image:secure_url" content="https://brian-novoa.com/rrss.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Portada del sitio de Brian González Novoa" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://brian-novoa.com/" />
+        <meta name="twitter:title" content="Desarrollo de Software a Medida | Brian González Novoa" />
+        <meta
+            name="twitter:description"
+            content="Full Stack Developer especializado en soluciones digitales escalables para empresas."
+        />
+        <meta name="twitter:image" content="https://brian-novoa.com/rrss.png" />
+        <meta name="twitter:image:alt" content="Portada del sitio de Brian González Novoa" />
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-W7G7H686');
+        </script>
+        <!-- End Google Tag Manager -->
     </head>
     <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-W7G7H686"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
         <div id="root"></div>
         <script type="module" src="/src/main.tsx"></script>
+
+        <!-- JSON-LD: Person & WebSite with SearchAction -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Brian González Novoa",
+                "url": "https://brian-novoa.com/",
+                "inLanguage": "es-ES",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://brian-novoa.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                },
+                "publisher": {
+                    "@type": "Person",
+                    "name": "Brian González Novoa",
+                    "url": "https://brian-novoa.com/"
+                }
+            }
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Brian González Novoa",
+                "url": "https://brian-novoa.com/",
+                "jobTitle": "Full Stack Developer",
+                "image": "https://brian-novoa.com/logo.png",
+                "sameAs": [
+                    "https://www.linkedin.com/in/brianglezn/",
+                    "https://github.com/brianglezn/",
+                    "https://www.instagram.com/brian.developer"
+                ]
+            }
+        </script>
     </body>
 </html>

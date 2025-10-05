@@ -22,7 +22,7 @@ export default function Projects() {
             title: 'CartaHub',
             summary:
                 'Sistema digital para la gestión completa de restaurantes. Crea menús con QR, administra pedidos y mantén tu carta actualizada en varios idiomas desde una plataforma sencilla e intuitiva.',
-            link: '/carthub',
+            link: '/projects/cartahub',
             imageAlt: 'CartaHub gestión del restaurante',
             imageSrc: cartahubRestaurant,
             technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Express', 'Docker', 'Cloudinary'],

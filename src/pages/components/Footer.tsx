@@ -1,3 +1,5 @@
+import { GitHub, Instagram, Linkedin } from 'react-feather';
+
 export default function Footer() {
     return (
         <footer className="w-full bg-slate-900 text-slate-200">
@@ -14,7 +16,7 @@ export default function Footer() {
                         <h4 className="text-sm font-semibold uppercase tracking-wide text-slate-300">Servicios</h4>
                         <ul className="mt-4 space-y-2 text-slate-400">
                             <li>Aplicaciones Web Personalizadas</li>
-                            <li>DSistemas de Gestión (CRM/ERP)</li>
+                            <li>Sistemas de Gestión (CRM/ERP)</li>
                             <li>APIs & Integraciones</li>
                             <li>Diseño web</li>
                         </ul>
@@ -28,6 +30,37 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>España</li>
+                            <li className="pt-4">
+                                <div className="flex items-center gap-4 text-slate-400">
+                                    <a
+                                        href="https://www.linkedin.com/in/brianglezn/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="LinkedIn de Brian González Novoa"
+                                        className="hover:text-white no-underline-effect"
+                                    >
+                                        <Linkedin size={20} />
+                                    </a>
+                                    <a
+                                        href="https://github.com/brianglezn/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="GitHub de Brian González Novoa"
+                                        className="hover:text-white no-underline-effect"
+                                    >
+                                        <GitHub size={20} />
+                                    </a>
+                                    <a
+                                        href="https://www.instagram.com/brian.developer"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Instagram de Brian González Novoa"
+                                        className="hover:text-white no-underline-effect"
+                                    >
+                                        <Instagram size={20} />
+                                    </a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
