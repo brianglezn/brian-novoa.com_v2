@@ -20,9 +20,7 @@ export default function Header() {
                     <nav className="hidden lg:flex items-center gap-2">
                         <NavLink
                             to="/"
-                            className={({ isActive }) =>
-                                `${navLinkBase} ${isActive ? 'text-slate-900 font-semibold' : ''}`
-                            }
+                            className={({ isActive }) => `${navLinkBase} ${isActive ? 'text-slate-900 font-semibold' : ''}`}
                         >
                             {({ isActive }) => (
                                 <>
@@ -36,9 +34,7 @@ export default function Header() {
                         </NavLink>
                         <NavLink
                             to="/projects"
-                            className={({ isActive }) =>
-                                `${navLinkBase} ${isActive ? 'text-slate-900 font-semibold' : ''}`
-                            }
+                            className={({ isActive }) => `${navLinkBase} ${isActive ? 'text-slate-900 font-semibold' : ''}`}
                         >
                             {({ isActive }) => (
                                 <>
@@ -90,9 +86,7 @@ export default function Header() {
                                 onClick={() => setMobileOpen(false)}
                                 className={({ isActive }) =>
                                     `no-underline-effect px-4 py-3 flex items-center gap-3 group transition-all duration-300 ${
-                                        isActive
-                                            ? 'text-slate-900 font-semibold'
-                                            : 'text-slate-700 hover:text-slate-900'
+                                        isActive ? 'text-slate-900 font-semibold' : 'text-slate-700 hover:text-slate-900'
                                     }`
                                 }
                             >
@@ -112,9 +106,7 @@ export default function Header() {
                                 onClick={() => setMobileOpen(false)}
                                 className={({ isActive }) =>
                                     `no-underline-effect px-4 py-3 flex items-center gap-3 group transition-all duration-300 ${
-                                        isActive
-                                            ? 'text-slate-900 font-semibold'
-                                            : 'text-slate-700 hover:text-slate-900'
+                                        isActive ? 'text-slate-900 font-semibold' : 'text-slate-700 hover:text-slate-900'
                                     }`
                                 }
                             >

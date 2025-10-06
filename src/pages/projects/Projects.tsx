@@ -117,7 +117,10 @@ export default function Projects() {
                                             <span aria-hidden>↗</span>
                                         </a>
                                     ) : (
-                                        <a href={p.link} className="inline-flex items-center gap-2 text-primary self-start w-auto">
+                                        <a
+                                            href={p.link}
+                                            className="inline-flex items-center gap-2 text-primary self-start w-auto"
+                                        >
                                             Ver más
                                             <span aria-hidden>→</span>
                                         </a>
