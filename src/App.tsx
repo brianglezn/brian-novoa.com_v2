@@ -5,12 +5,14 @@ import Projects from './pages/projects/Projects';
 import ProfitLost from './pages/projects/cases/ProfitLost';
 import CartaHub from './pages/projects/cases/CartaHub';
 import Footer from './pages/components/Footer';
+import Header from './pages/components/Header';
 
 export default function App() {
     return (
         <BrowserRouter>
             <ScrollToTop />
             <div className="min-h-screen flex flex-col">
+                <Header />
                 <div className="flex-1">
                     <Routes>
                         <Route path="/" element={<Landing />} />

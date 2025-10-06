@@ -48,7 +48,7 @@ export default function Cases() {
                             <div className="flex-1">
                                 <h3 className="text-xl font-semibold mb-2">{c.title}</h3>
                                 <p className="text-slate-600 mb-3 leading-relaxed">{c.summary}</p>
-                                <Link to={c.link} className="inline-flex items-center gap-2 text-primary hover:underline">
+                                <Link to={c.link} className="inline-flex items-center gap-2 text-primary">
                                     Ver más
                                     <span aria-hidden>→</span>
                                 </Link>

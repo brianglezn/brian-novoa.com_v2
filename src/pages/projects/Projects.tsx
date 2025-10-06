@@ -111,13 +111,13 @@ export default function Projects() {
                                             href={p.link}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="inline-flex items-center gap-2 text-primary hover:underline"
+                                            className="inline-flex items-center gap-2 text-primary self-start w-auto"
                                         >
                                             Ver sitio
                                             <span aria-hidden>↗</span>
                                         </a>
                                     ) : (
-                                        <a href={p.link} className="inline-flex items-center gap-2 text-primary hover:underline">
+                                        <a href={p.link} className="inline-flex items-center gap-2 text-primary self-start w-auto">
                                             Ver más
                                             <span aria-hidden>→</span>
                                         </a>
