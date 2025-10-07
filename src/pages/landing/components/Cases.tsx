@@ -25,7 +25,7 @@ export default function Cases() {
     return (
         <section className="w-full px-6 py-20">
             <div className="mx-auto max-w-6xl">
-                <header className="mb-10">
+                <header className="mb-10 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold">Casos de Éxito</h2>
                     <p className="text-slate-600 mt-2">Proyectos reales que generan impacto de negocio.</p>
                 </header>

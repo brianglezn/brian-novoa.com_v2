@@ -2,6 +2,7 @@ import Services from './components/Services';
 import Process from './components/Process';
 import Hero from './components/Hero';
 import Cases from './components/Cases';
+import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 
 export default function Landing() {
@@ -11,6 +12,7 @@ export default function Landing() {
             <Services />
             <Process />
             <Cases />
+            <FAQ />
             <CTA />
         </>
     );
