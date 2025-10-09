@@ -15,6 +15,7 @@ export type CaseStudy = {
     team: string;
     industry: string;
     image?: string;
+    websiteUrl?: string;
     results: Result[];
     challenge: Challenge;
     solution: Solution;
@@ -102,6 +103,19 @@ export default function CaseLayout({
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-white/80 to-transparent" />
                         </div>
+                        {caseStudy.websiteUrl && (
+                            <div className="text-center mt-8">
+                                <a
+                                    href={caseStudy.websiteUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-xl font-semibold hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl no-underline-effect"
+                                >
+                                    <span>Visitar Sitio</span>
+                                    <span className="text-sm">↗</span>
+                                </a>
+                            </div>
+                        )}
                     </div>
                 </section>
             )}

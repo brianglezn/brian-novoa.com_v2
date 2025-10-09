@@ -16,6 +16,7 @@ const cartaHubCase: CaseStudy = {
     team: 'BGN',
     industry: 'Hostelería / SaaS',
     image: home,
+    websiteUrl: 'https://cartahub.es',
     results: [
         { value: '70%', label: 'Tiempo ahorrado', description: 'en cambios de carta y precios' },
         { value: 'QR', label: 'Menú digital', description: 'acceso inmediato desde cualquier mesa' },

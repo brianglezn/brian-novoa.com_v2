@@ -15,6 +15,7 @@ const profitLostCase: CaseStudy = {
     team: 'BOCode',
     industry: 'Fintech / Gestión Financiera',
     image: annualReport,
+    websiteUrl: 'https://profit-lost.com',
     results: [
         { value: '20%', label: 'Más ahorro', description: 'tras 3 meses usando presupuestos y metas' },
         { value: '100%', label: 'Visibilidad', description: 'de tus gastos por categorías en tiempo real' },
