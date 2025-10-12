@@ -49,5 +49,6 @@ jobs:
                   username: ${{ secrets.SSH_USERNAME }}
                   password: ${{ secrets.SSH_PASSWORD }}
                   port: ${{ secrets.SSH_PORT }}
-                  source: './dist/*'
-                  target: '/home/u701148591/domains/brian-novoa.com/public_html'
+                  source: './dist'
+                  target: '/home/u701148591/domains/brian-novoa.com'
+                  strip_components: 1
