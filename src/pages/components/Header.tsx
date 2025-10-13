@@ -1,8 +1,17 @@
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 export default function Header() {
     const [mobileOpen, setMobileOpen] = useState(false);
+    const location = useLocation();
+
+    // Determinar la ruta de inicio basada en la ubicación actual
+    const getHomePath = () => {
+        if (location.pathname.startsWith('/webs')) {
+            return '/webs';
+        }
+        return '/';
+    };
 
     const navLinkBase =
         'no-underline-effect px-4 py-2.5 text-slate-700 hover:text-slate-900 transition-all duration-300 ease-out relative group';
@@ -11,7 +20,7 @@ export default function Header() {
         <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-lg border-b border-slate-200/60 shadow-sm">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="h-16 sm:h-18 flex items-center justify-between">
-                    <Link to="/" className="no-underline-effect inline-flex items-center gap-2 group">
+                    <Link to={getHomePath()} className="no-underline-effect inline-flex items-center gap-2 group">
                         <span className="text-lg sm:text-xl font-bold tracking-tight bg-gradient-to-r from-sky-900 via-sky-800 to-primary bg-clip-text text-transparent group-hover:from-primary group-hover:to-sky-700 transition-all duration-300">
                             Brian G. Novoa
                         </span>
@@ -19,7 +28,7 @@ export default function Header() {
 
                     <nav className="hidden lg:flex items-center gap-2">
                         <NavLink
-                            to="/"
+                            to={getHomePath()}
                             className={({ isActive }) => `${navLinkBase} ${isActive ? 'text-slate-900 font-semibold' : ''}`}
                         >
                             {({ isActive }) => (
@@ -82,7 +91,7 @@ export default function Header() {
                     <div className="lg:hidden pb-6 pt-2">
                         <div className="flex flex-col gap-3">
                             <NavLink
-                                to="/"
+                                to={getHomePath()}
                                 onClick={() => setMobileOpen(false)}
                                 className={({ isActive }) =>
                                     `no-underline-effect px-4 py-3 flex items-center gap-3 group transition-all duration-300 ${

@@ -1,24 +1,33 @@
-import annualReport from '../../../assets/projects/profit-lost/annualReport.png';
-import cartahubRestaurant from '../../../assets/projects/cartahub/restaurant.png';
+import profitLost from '../../../assets/projects/profit-lost/landing.png';
+import labarveria from '../../../assets/projects/web-design/labarveria.png';
+import refrigeraciontransporte from '../../../assets/projects/web-design/refrigeraciontransporte.png';
 import { Link } from 'react-router-dom';
 
 export default function Cases() {
     const cases = [
         {
-            title: 'ProfitLost',
+            title: 'La Barvería',
             summary:
-                'Plataforma de control financiero para personas que quieren tener el control total de su dinero. Visualiza gastos e ingresos en tiempo real, genera reportes automáticos y toma decisiones con datos, no con suposiciones. 👉 Desarrollada con dashboards personalizados y reportes exportables para optimizar la gestión financiera.',
-            link: '/projects/profit-lost',
-            imageAlt: 'ProfitLost dashboard preview',
-            imageSrc: annualReport,
+                'Diseño web para barbería moderna con sistema de reservas online. Diseño UX/UI centrado en conversión con reservas integradas, galería de trabajos y diseño móvil primero.',
+            link: '/projects',
+            imageAlt: 'La Barvería diseño web barbería',
+            imageSrc: labarveria,
         },
         {
-            title: 'CartaHub',
+            title: 'Profit&Lost',
             summary:
-                'Sistema integral para la gestión digital de restaurantes. Crea menús digitales con QR, gestiona pedidos y actualiza tu carta en varios idiomas, todo desde una misma plataforma. 👉 Ayuda a restaurantes a ahorrar tiempo, reducir errores y ofrecer una experiencia moderna a sus clientes.',
-            link: '/projects/cartahub',
-            imageAlt: 'CartaHub gestión del restaurante',
-            imageSrc: cartahubRestaurant,
+                'Plataforma de control financiero para personas que quieren tener el control total de su dinero. Visualiza gastos e ingresos en tiempo real, genera reportes automáticos y toma decisiones con datos, no con suposiciones. Desarrollada con dashboards personalizados y reportes exportables para optimizar la gestión financiera.',
+            link: '/projects',
+            imageAlt: 'Profit-lost.com diseño web corporativo',
+            imageSrc: profitLost,
+        },
+        {
+            title: 'ERN',
+            summary:
+                'Sitio web para empresa de refrigeración industrial con catálogo de productos y formularios de contacto optimizados. Diseño profesional que transmite confianza y expertise técnico. ',
+            link: '/projects',
+            imageAlt: 'ERN diseño web industrial',
+            imageSrc: refrigeraciontransporte,
         },
     ];
 
@@ -26,8 +35,8 @@ export default function Cases() {
         <section className="w-full px-6 py-20">
             <div className="mx-auto max-w-6xl">
                 <header className="mb-10 text-center">
-                    <h2 className="text-3xl md:text-4xl font-bold">Casos de Éxito</h2>
-                    <p className="text-slate-600 mt-2">Proyectos reales que generan impacto de negocio.</p>
+                    <h2 className="text-3xl md:text-4xl font-bold">Casos de Diseño Web</h2>
+                    <p className="text-slate-600 mt-2">Diseños que convierten visitantes en clientes reales.</p>
                 </header>
 
                 <div className="grid grid-cols-1 gap-6">
