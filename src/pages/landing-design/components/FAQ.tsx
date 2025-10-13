@@ -5,20 +5,16 @@ export default function FAQ() {
 
     const faqs = [
         {
-            question: '¿Cuánto puede aumentar mis conversiones con un buen diseño web?',
-            answer: 'Un diseño web optimizado puede aumentar tus conversiones entre 200% y 400%. Mis clientes han visto incrementos promedio del 300% en leads calificados y hasta 250% más ventas online. La clave está en entender a tu audiencia y diseñar cada elemento para guiarlos hacia la acción.',
-        },
-        {
             question: '¿Por qué es importante tener un diseño web profesional?',
             answer: 'Tu sitio web es tu escaparate digital 24/7. Un diseño profesional genera confianza inmediata: el 75% de los usuarios juzgan la credibilidad de una empresa por su diseño web. Un sitio mal diseñado puede hacerte perder hasta el 40% de tus visitantes en los primeros 3 segundos.',
         },
         {
             question: '¿Qué incluye un diseño web completo?',
-            answer: 'Diseño visual completo, desarrollo responsive, optimización SEO, formularios de contacto, integración con redes sociales, velocidad optimizada, y guías de uso. También incluyo 3 meses de soporte gratuito y actualizaciones menores sin costo adicional.',
+            answer: 'Diseño visual completo, desarrollo responsive, optimización SEO, formularios de contacto, integración con redes sociales, velocidad optimizada, y guías de uso. También incluyo 1 mes de soporte gratuito y actualizaciones menores sin costo adicional.',
         },
         {
             question: '¿Cuánto cuesta un diseño web profesional?',
-            answer: 'Los precios varían según la complejidad del proyecto. Landing pages empiezan desde 1.200€, sitios corporativos desde 2.500€, y e-commerce desde 3.500€. Todos incluyen diseño responsive, SEO básico y 3 meses de soporte. Sin costes ocultos.',
+            answer: 'Los precios varían según la complejidad del proyecto. Landing pages empiezan desde 400€. Incluyen diseño responsive, SEO básico y 1 mes de soporte. Sin costes ocultos.',
         },
         {
             question: '¿Cuánto tiempo tarda el desarrollo?',
@@ -26,7 +22,7 @@ export default function FAQ() {
         },
         {
             question: '¿Necesito conocimientos técnicos para gestionar mi sitio?',
-            answer: 'No, para nada. Te entrego un panel de administración intuitivo donde puedes actualizar contenido, imágenes y textos fácilmente. También te proporciono una guía completa y soporte para cualquier duda.',
+            answer: 'No, para nada. Si necesitas alguna actualización dispongo de un plan de mantenimiento mensual donde puedes solicitarme los cambios menores necesarios para actualizar el contenido.',
         },
         {
             question: '¿Mi sitio funcionará en móviles?',
