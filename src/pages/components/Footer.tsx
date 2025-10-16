@@ -64,8 +64,19 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="mt-12 pt-8 border-t border-gray-300 text-sm text-gray-500">
-                    © 2025 BGN. Todos los derechos reservados.
+                <div className="mt-12 pt-8 border-t border-gray-300 text-sm text-gray-500 flex flex-col md:flex-row items-center justify-between gap-4">
+                    <p>© 2025 BGN. Todos los derechos reservados.</p>
+                    <div className="flex items-center gap-6">
+                        <a href="/legal/privacy" className="text-sm text-gray-600 hover:text-[#206d7e] transition-colors">
+                            Política de Privacidad
+                        </a>
+                        <a href="/legal/terms" className="text-sm text-gray-600 hover:text-[#206d7e] transition-colors">
+                            Términos y Condiciones
+                        </a>
+                        <a href="/legal/cookies" className="text-sm text-gray-600 hover:text-[#206d7e] transition-colors">
+                            Política de Cookies
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
